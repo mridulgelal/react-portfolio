@@ -24,7 +24,7 @@ const Hero = () => {
     visible: { opacity: 1, y: 0 },
   };
   return (
-    <div className=" text-center mt-2  " id="hero">
+    <div className=" text-center mt-20 " id="hero">
       <h2 className=" py-2 mt-1 pt-10 text-teal-600 font-medium  text-3xl">
         Mridul Gelal
       </h2>
@@ -111,9 +111,9 @@ const Hero = () => {
           delay: 0.5,
           ease: [0, 0.71, 0.2, 1.01],
         }}
-        className=" relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80  overflow-auto "
+        className=" relative mx-auto bg-gradient-to-b from-teal-500 rounded-full h-80 w-80   overflow-auto "
       >
-        <img src={deved} alt="mree" className="object-cover h-80 z-0 " />
+        <img src={deved} alt="mree" className="object-cover h-80 z-0  " />
       </motion.div>
       <div className="flex justify-center items-center text-center mt-5">
         <div className=" flex justify-evenly items-center bg-gradient-to-t bg-cyan-500 h-8 w-20  rounded-2xl  animate-bounce hover:cursor-pointer">

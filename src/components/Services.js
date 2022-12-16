@@ -5,18 +5,19 @@ import { motion } from 'framer-motion';
 
 const Services = () => {
   return (
-    <section className=" pt-32 min-h-[80vh] " id="services">
-      <div>
-        <h3 className="text-2xl  py-1 text-center uppercase ">Services</h3>
-        <p className=" py-2  leading-6 text-xs text-center">
-          I can propose the solution that best satisfies your requirements.
-          <br />
-          The list below includes a few of the services I offer.
-        </p>
-      </div>
-      <div className="lg:flex lg:flex-row md:flex sm:flex-col justify-around  ">
+    <section className=" pt-32 min-h-[100vh] shadow-lg  " id="services">
+      <h3 className="text-2xl  py-1  mb-3 text-center uppercase underline underline-offset-8  ">
+        Services
+      </h3>
+      <p className=" py-2  leading-6 text-s text-center">
+        I can propose the solution that best satisfies your requirements.
+        <br />
+        The list below includes a few of the services I offer.
+      </p>
+
+      <div className="lg:flex lg:flex-row md:flex sm:flex-col justify-around py-20 ">
         <motion.div
-          className=" text-center shadow-lg p-10 rounded-xl my-10 text-xs "
+          className="text-center flex flex-col mx-auto p-10 gap-8 max-w-sm justify-evenly shadow-lg rounded-xl text-x bg-blue-100 "
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -39,11 +40,9 @@ const Services = () => {
             height={80}
             className="mx-auto"
           />
-          <h3 className="text-lg font-medium pt-8 pb-2 ">
-            Website Development
-          </h3>
-          <p>
-            Not only build a website , build a digital recognition of yourself/
+          <h3 className="text-lg font-medium  ">Website Development</h3>
+          <p className="max-w-lg text-sm">
+            Not only build a website , build a digital recognition of yourself
             your business. For any brand or business, a website is a crucial
             important part. Grow your business now by targeting the audience who
             spends time on the web.
@@ -51,6 +50,7 @@ const Services = () => {
         </motion.div>
 
         <motion.div
+          className=" text-center flex flex-col mx-auto p-10 gap-8 max-w-sm justify-evenly shadow-lg rounded-xl text-x bg-pink-100"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -65,7 +65,6 @@ const Services = () => {
               restDelta: 0.001,
             },
           }}
-          className="  text-center shadow-lg p-10 rounded-xl my-10  text-xs"
         >
           <img
             src={design}
@@ -74,8 +73,8 @@ const Services = () => {
             height={80}
             className="mx-auto"
           />
-          <h3 className="text-lg font-medium pt-8 pb-2">Responsive Designs</h3>
-          <p>
+          <h3 className="text-lg font-medium ">Responsive Designs</h3>
+          <p className="max-w-lg text-sm">
             Almost every new client these days wants a mobile version of their
             website. It’s practically essential after all: one design for the
             smartPhones, another for the iPad/Tablets, the noteBook and all
@@ -84,6 +83,7 @@ const Services = () => {
         </motion.div>
 
         <motion.div
+          className=" text-center flex flex-col mx-auto p-10 max-w-sm gap-8 justify-evenly shadow-lg rounded-xl text-xs bg-green-100"
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{
@@ -98,7 +98,6 @@ const Services = () => {
               restDelta: 0.001,
             },
           }}
-          className=" text-center shadow-lg p-10 rounded-xl my-10  text-xs"
         >
           <img
             src={paint}
@@ -107,8 +106,8 @@ const Services = () => {
             height={80}
             className="mx-auto"
           />
-          <h3 className="text-lg font-medium pt-8 pb-2">Graphic Design</h3>
-          <p>
+          <h3 className="text-lg font-medium ">Graphic Design</h3>
+          <p className="max-w-lg text-sm">
             A visual communication and problem-solving through the use of
             typography, photography and illustration. I can help create better
             looking logos and UI/UX design.

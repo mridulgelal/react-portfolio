@@ -78,8 +78,10 @@ const Portfolio = () => {
   return (
     <div id="portfolio">
       <div className="  w-full right-0  p-10 rounded-xl min-h-[90vh] text-center shadow-2xl pt-32">
-        <h2 className="text-2xl mb-2 uppercase">Projects</h2>
-        <div className=" flex gap-10 justify-center ">
+        <h2 className="text-2xl mb-10 uppercase underline underline-offset-8  ">
+          Projects
+        </h2>
+        <div className=" flex gap-10 justify-center text-s">
           <button onClick={handleCategoryChange} value="all">
             All
           </button>
