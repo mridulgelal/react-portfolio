@@ -92,7 +92,7 @@ const Education = () => {
           src={book}
           height="40px"
           width="400px"
-          className=" hidden lg:flex  ml-40 -mt-10 "
+          className=" hidden lg:flex -mt-10 ml-72 "
         />
       </div>
     </div>
