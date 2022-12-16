@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="flex justify-evenly bg-cyan-50 absolute w-full -ml-10 right-0 h-10 ">
+    <footer className="flex  flex-wrap justify-evenly bg-cyan-50 w-[100%] right-0 ">
       <div className=" pt-3 ml-10 flex  ">
         <a
           class="mr-9  text-gray-800"
@@ -116,7 +116,7 @@ const Footer = () => {
         </a>
       </div>
       <div>
-        <div class="text-center text-gray-700  text-sm pt-3 w-full ">
+        <div class="text-center text-gray-700  text-sm pt-3 w-full  ">
           © 2022 Copyright:
           <a class="text-gray-800" href="https://tailwind-elements.com/">
             &nbsp; Mridul Gelal
