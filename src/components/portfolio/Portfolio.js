@@ -77,7 +77,7 @@ const Portfolio = () => {
   console.log(filteredList);
   return (
     <div id="portfolio">
-      <div className="  w-full right-0  p-10 rounded-xl h-auto text-center shadow-2xl ">
+      <div className="  w-full right-0  p-10 rounded-xl min-h-[90vh] text-center shadow-2xl pt-32">
         <h2 className="text-2xl mb-2 uppercase">Projects</h2>
         <div className=" flex gap-10 justify-center ">
           <button onClick={handleCategoryChange} value="all">

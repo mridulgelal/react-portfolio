@@ -2,9 +2,9 @@ const About = () => {
   return (
     <div
       id="about"
-      className="  flex flex-col justify-between items-center  rounded-lg  "
+      className="  flex flex-col justify-between items-center  rounded-lg  min-h-[90vh] bg-red-400 "
     >
-      <h2 className="text-2xl mb-10 ">About Me</h2>
+      <h2 className="text-2xl mt-32">About Me</h2>
       <div id="skills" className=" w-[80%] flex flex-col gap-4 ">
         <h4 className="text-center mb-10 text-sm">
           Team player software engineer with a can-do attitude, phenomenal time

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Services = () => {
   return (
-    <section className=" mt-10 " id="services">
+    <section className=" pt-32 min-h-[80vh] " id="services">
       <div>
         <h3 className="text-2xl  py-1 text-center uppercase ">Services</h3>
         <p className=" py-2  leading-6 text-xs text-center">

@@ -2,8 +2,8 @@ import book from '../assets/book.png';
 
 const Education = () => {
   return (
-    <div className=" text-black shadow-lg rounded-lg h-full py-10 ">
-      <h2 className="text-center p-5 text-2xl mb-5">EDUCATION</h2>
+    <div className=" text-black shadow-lg rounded-lg min-h-[80vh] py-10  mt-20 ">
+      <h2 className="text-center p-5 text-2xl mb-20">EDUCATION</h2>
       <div className="flex flex-wrap justify-between px-20 ">
         <ol class="relative border-l border-gray-200  flex flex-col ">
           <li class="mb-10 ml-6">

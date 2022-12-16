@@ -1,7 +1,7 @@
 const Contact = () => {
   return (
     <div
-      class="relative flex items-top  mb-5 justify-center min-h-[70vh] rounded-xl shadow-2xl sm:items-center sm:pt-0 "
+      class="relative flex items-top  mb-5 justify-center min-h-[90vh] rounded-xl shadow-2xl sm:items-center sm:pt-0 "
       id="contact"
     >
       <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
