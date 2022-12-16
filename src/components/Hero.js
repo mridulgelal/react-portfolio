@@ -117,7 +117,9 @@ const Hero = () => {
       </motion.div>
       <div className="flex justify-center items-center text-center mt-5">
         <div className=" flex justify-evenly items-center bg-gradient-to-t bg-cyan-500 h-8 w-20  rounded-2xl  animate-bounce hover:cursor-pointer">
-          Resume
+          <a href="mridul_resume.pdf" target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
         </div>
       </div>
     </div>
