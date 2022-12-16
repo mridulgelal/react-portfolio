@@ -14,43 +14,43 @@ const About = () => {
           project with efficiency and quality. <br />
         </h4>
         <div className="gap-3 flex flex-col min-w-100% ">
-          <div class="overflow-hidden mb-4 text-xs flex rounded h-[25px]  bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center  bg-cyan-500 w-[90%] animate-pulse ">
+          <div className="overflow-hidden mb-4 text-xs flex rounded h-[25px]  bg-cyan-200">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center  bg-cyan-500 w-[90%] animate-pulse ">
               HTML
             </div>
           </div>
           <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center  bg-blue-600 w-[85%] ">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center  bg-blue-600 w-[85%] ">
               CSS
             </div>
           </div>
-          <div class="overflow-hidden mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-black justify-center bg-yellow-300 w-[80%] animate-pulse">
+          <div className="overflow-hidden mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-black justify-center bg-yellow-300 w-[80%] animate-pulse">
               JS
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-400 w-[60%] ">
+          <div className="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-400 w-[60%] ">
               ReactJS
             </div>
           </div>
-          <div class="overflow-hidden mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-400 w-[70%] animate-pulse">
+          <div className="overflow-hidden mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-400 w-[70%] animate-pulse">
               Tailwind
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500 w-[90%] ">
+          <div className="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500 w-[90%] ">
               Figma
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600 w-[90%] animate-pulse">
+          <div className="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600 w-[90%] animate-pulse">
               VsCode
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
-            <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gray-600 w-[95%] ">
+          <div className="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
+            <div className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gray-600 w-[95%] ">
               GitHub
             </div>
           </div>

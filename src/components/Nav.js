@@ -4,11 +4,14 @@ const Nav = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-white fixed top-0 -ml-10 z-20 text-black">
+    <nav
+      className="w-full bg-white fixed top-0 -ml-10 z-20 text-black"
+      id="nav"
+    >
       <div className="justify-between px-4 h-12 mx-auto  lg:max-w-7xl md:items-center md:flex md:px-8 ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <a href="javascript:void(0)">
+            <a href="#hero">
               <h2 className="text-2xl font-bold tracking-widest  text-cyan-400">
                 MREE
               </h2>
