@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: { Poppins: ['Poppins', 'sans-serif'] },
+      animation: { 'bounce-slow': 'bounce 6s linear infinite' },
     },
   },
   plugins: [],

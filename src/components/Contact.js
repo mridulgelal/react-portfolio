@@ -1,11 +1,11 @@
 const Contact = () => {
   return (
     <div
-      class="relative flex items-top  mb-5 justify-center min-h-screen rounded-xl shadow-2xl sm:items-center sm:pt-0 "
+      class="relative flex items-top  mb-5 justify-center min-h-[70vh] rounded-xl shadow-2xl sm:items-center sm:pt-0 "
       id="contact"
     >
       <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-        <div class="mt-8 overflow-hidden">
+        <div class=" overflow-hidden">
           <div class="grid grid-cols-1 md:grid-cols-2">
             <div class="p-6 mr-2 bg-gray-100sm:rounded-lg">
               <h1 class="text-2xl  md:text-left text-gray-800 font-extrabold tracking-tight">
@@ -15,7 +15,7 @@ const Contact = () => {
                 Fill in the form to start a conversation
               </p>
 
-              <div class="flex items-center mt-8 text-gray-600 ">
+              <div class="flex items-center  text-gray-600 ">
                 <svg
                   fill="none"
                   stroke="currentColor"

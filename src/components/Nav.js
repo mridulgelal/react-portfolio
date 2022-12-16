@@ -4,7 +4,7 @@ const Nav = () => {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="w-full bg-white fixed top-0 -ml-10 shadow z-10  text-black">
+    <nav className="w-full bg-white fixed top-0 -ml-10 z-20 text-black">
       <div className="justify-between px-4 h-12 mx-auto  lg:max-w-7xl md:items-center md:flex md:px-8 ">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -58,7 +58,7 @@ const Nav = () => {
             }`}
           >
             <ul
-              className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0 top-0 bg-white  -mt-12 sm:-mt-0
+              className="items-center justify-center space-y-8  z-20 md:flex md:space-x-6 md:space-y-0 top-0 bg-white  -mt-12 sm:-mt-0
             "
             >
               <li className="text-gray-600 hover:text-blue-600">

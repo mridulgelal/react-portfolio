@@ -2,7 +2,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="  flex flex-col justify-between items-center shadow-lg rounded-lg  "
+      className="  flex flex-col justify-between items-center  rounded-lg  "
     >
       <h2 className="text-2xl mb-10 ">About Me</h2>
       <div id="skills" className=" w-[80%] flex flex-col gap-4 ">
@@ -13,43 +13,43 @@ const About = () => {
           expertise and experience gained in this field to develop complex
           project with efficiency and quality. <br />
         </h4>
-        <div className="pl-48 pr-48">
-          <div class="overflow-hidden mb-4 text-xs flex rounded h-[20px]  bg-cyan-200">
+        <div className="gap-3 flex flex-col min-w-100% ">
+          <div class="overflow-hidden mb-4 text-xs flex rounded h-[25px]  bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center  bg-cyan-500 w-[90%] animate-pulse ">
               HTML
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded bg-cyan-200">
+          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center  bg-blue-600 w-[85%] ">
               CSS
             </div>
           </div>
-          <div class="overflow-hidden mb-4 text-xs flex rounded bg-cyan-200">
+          <div class="overflow-hidden mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-black justify-center bg-yellow-300 w-[80%] animate-pulse">
               JS
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded bg-cyan-200">
+          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-400 w-[60%] ">
               ReactJS
             </div>
           </div>
-          <div class="overflow-hidden mb-4 text-xs flex rounded bg-cyan-200">
+          <div class="overflow-hidden mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-purple-400 w-[70%] animate-pulse">
               Tailwind
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded bg-cyan-200">
+          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-green-500 w-[90%] ">
               Figma
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded bg-cyan-200">
+          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600 w-[90%] animate-pulse">
               VsCode
             </div>
           </div>
-          <div class="overflow-hidden  mb-4 text-xs flex rounded bg-cyan-200">
+          <div class="overflow-hidden  mb-4 text-xs flex rounded h-[25px] bg-cyan-200">
             <div class="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-gray-600 w-[95%] ">
               GitHub
             </div>

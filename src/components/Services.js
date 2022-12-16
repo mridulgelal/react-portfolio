@@ -14,7 +14,7 @@ const Services = () => {
           The list below includes a few of the services I offer.
         </p>
       </div>
-      <div className="lg:flex lg:flex-row md:flex sm:flex-col justify-around p-5 ">
+      <div className="lg:flex lg:flex-row md:flex sm:flex-col justify-around  ">
         <motion.div
           className=" text-center shadow-lg p-10 rounded-xl my-10 text-xs "
           initial={{ opacity: 0, scale: 0.5 }}

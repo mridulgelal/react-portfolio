@@ -76,7 +76,7 @@ const Portfolio = () => {
   console.log(selectedCategory);
   console.log(filteredList);
   return (
-    <div className=" min-h-screen " id="portfolio">
+    <div id="portfolio">
       <div className="  w-full right-0  p-10 rounded-xl h-auto text-center shadow-2xl ">
         <h2 className="text-2xl mb-2 uppercase">Projects</h2>
         <div className=" flex gap-10 justify-center ">
