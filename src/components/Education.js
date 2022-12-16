@@ -4,7 +4,7 @@ const Education = () => {
   return (
     <div className="p-20 text-black shadow-lg rounded-lg h-full ">
       <h2 className="text-center p-5 text-2xl mb-5">EDUCATION</h2>
-      <div className="flex flex-wrap ">
+      <div className="flex flex-wrap justify-between px-20 ">
         <ol class="relative border-l border-gray-200  flex flex-col   ">
           <li class="mb-10 ml-6">
             <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-blue-200 rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
@@ -92,7 +92,7 @@ const Education = () => {
           src={book}
           height="40px"
           width="400px"
-          className=" hidden lg:flex -mt-10 ml-72 "
+          className=" hidden lg:flex -mt-10   "
         />
       </div>
     </div>
